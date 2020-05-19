@@ -1,12 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Code Complexity Tool</title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
 </head>
 <style type="text/css">
 #section {
@@ -193,7 +184,7 @@ h1 {
        &nbsp;&nbsp;&nbsp;&nbsp;
 				<a href= "controlWeight.jsp"><button class="button">Change weight</button></a>
 
-				 <form action="FileUploadHandler" enctype="multipart/form-data" method="post">
+				 <form action="FileUploadHandlerInheritanc" enctype="multipart/form-data" method="post">
  					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -226,5 +217,3 @@ h1 {
 
 
 </body>
-
-</html>
